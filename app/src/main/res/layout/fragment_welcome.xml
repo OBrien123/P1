@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    android:layout_gravity="center_horizontal"
+    tools:context=".WelcomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="694dp"
+        android:layout_height="505dp"
+        app:layout_columnWeight="3"
+        app:layout_rowWeight="2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="795dp">
+
+        <TextView
+            android:layout_width="605dp"
+            android:layout_height="422dp"
+            android:layout_margin="50dp"
+            android:background="@drawable/sci"
+
+            android:textSize="50dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="659dp"
+        android:layout_height="529dp"
+        app:layout_columnWeight="3"
+        app:layout_rowWeight="3"
+        tools:layout_editor_absoluteX="1094dp"
+        tools:layout_editor_absoluteY="1343dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="561dp"
+            android:layout_height="423dp"
+            android:layout_margin="50dp"
+            android:background="@drawable/sport"
+
+            android:textSize="50dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="663dp"
+        android:layout_height="463dp"
+        app:layout_columnWeight="2"
+        app:layout_rowWeight="2"
+        tools:layout_editor_absoluteX="1083dp"
+        tools:layout_editor_absoluteY="795dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="733dp"
+            android:layout_height="438dp"
+            android:layout_margin="50dp"
+            android:background="@drawable/hist"
+
+            android:textColor="#ffffff"
+            android:textSize="50dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="682dp"
+        android:layout_height="505dp"
+        app:layout_columnWeight="3"
+        app:layout_rowWeight="3"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="1450dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="50dp"
+            android:background="@drawable/geo"
+
+            android:textColor="#ffffff"
+            android:textSize="50dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:textColor="#003ACC"
+        android:text="Q"
+        android:textSize="500sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <TextView
+        android:id="@+id/u"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:textColor="#BECC00"
+        android:text="U"
+        android:textSize="500sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="628dp"
+        tools:layout_editor_absoluteY="-81dp" />
+
+    <TextView
+        android:id="@+id/I"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:textColor="#75E405"
+        android:text="I"
+        android:textSize="500sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1021dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <TextView
+        android:id="@+id/Z"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:text="Z"
+        android:textColor="#C00"
+        android:textSize="500sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1245dp"
+        tools:layout_editor_absoluteY="-58dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
